@@ -1,2 +1,8 @@
 backend/node_modules
 backend/yarn.lock
+
+backend/uploads/
+
+yarn.lock
+
+node_modules/
