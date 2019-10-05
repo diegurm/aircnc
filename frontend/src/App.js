@@ -1,6 +1,10 @@
 import React from 'react';
+import api from './services/api';
+
 import './App.css';
 import logo from './assets/logo.svg';
+
+import Routes from './routes';
 
 function App() {
   return (
@@ -8,17 +12,7 @@ function App() {
       <img src={logo} alt="AirCnc" />
 
       <div className="content">
-        <p>
-          Ofereça <strong>spots</strong> para programadores e encontre{' '}
-          <strong>talentos</strong> para sua empresa
-        </p>
-        <form>
-          <label htmlFor="email">E-mail *</label>
-          <input type="email" id="email" placeholder="Seu melhor e-mail" />
-        </form>
-        <button className="btn" type="submit">
-          Entrar
-        </button>
+        <Routes />
       </div>
     </div>
   );
