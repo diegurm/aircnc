@@ -43,6 +43,7 @@ function SpotList({ tech, navigation }) {
         horizontal
         showsHorizontalScrollIndicator={false}
         renderItem={({ item }) => (
+
           <View style={styles.listItem}>
             <Image
               style={styles.thumbnail}
